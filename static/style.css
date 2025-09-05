@@ -1,0 +1,78 @@
+.important-banner {
+    background: #e53935;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 6px 6px 0 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+.email-summary-card.important {
+    border-left: 6px solid #e53935;
+    box-shadow: 0 4px 16px rgba(229,57,53,0.12);
+}
+.email-summary-card {
+    background: #f7f8fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44,62,80,0.07);
+    margin-bottom: 24px;
+    padding: 18px 22px;
+    border-left: 4px solid #2d3e50;
+}
+.email-summary-card h3 {
+    margin-top: 0;
+    color: #2d3e50;
+    font-size: 1.1em;
+}
+.email-summary-card p {
+    margin-bottom: 0;
+    color: #222;
+    font-size: 1em;
+}
+#reload-btn, .reload-btn {
+    display: block;
+    margin: 0 auto 24px auto;
+    padding: 10px 24px;
+    font-size: 1rem;
+    background: #2d3e50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#reload-btn:hover, .reload-btn:hover {
+    background: #1a2533;
+}
+body {
+    background: linear-gradient(135deg, #ece9e6 0%, #ffffff 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px;
+}
+h1 {
+    text-align: center;
+    color: #2d3e50;
+    margin-bottom: 32px;
+}
+#summary {
+    font-size: 1.1rem;
+    color: #222;
+    line-height: 1.7;
+}
+pre, code {
+    background: #f4f4f4;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 1em;
+}

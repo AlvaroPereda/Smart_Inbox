@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumenes de la IA</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resúmenes de la IA</h1>
+        <button id="reload-btn" class="reload-btn">Resume tus correos</button>
+        <div id="progress-bar-container" style="display:none; margin: 20px 0;">
+            <div id="progress-bar" style="height: 12px; width: 100%; background: #e0e0e0; border-radius: 6px; overflow: hidden;">
+                <div id="progress-bar-fill" style="height: 100%; width: 0%; background: #2d3e50; transition: width 0.4s;"></div>
+            </div>
+        </div>
+        <div id="summary"></div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>
