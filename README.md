@@ -7,6 +7,7 @@ La aplicación utiliza el model-runner de Docker para procesar los correos con e
 ## Requisitos
 - Docker instalado en tu sistema.
 - Acceso a una cuenta Gmail (debes configurar las variables en el archivo `.env`).
+- Debes tener Docker Engine or Docker Desktop (Windows) 4.41+ or Docker Desktop (MacOS) 4.40+ ([versiones](https://docs.docker.com/ai/model-runner/))
 - Debes cumplir con los requisitos que pide model-runner de docker ([requisitos](https://docs.docker.com/ai/model-runner/#requirements))
 - Git Bash (en Windows) para ejecutar el script `run.sh`.
 
